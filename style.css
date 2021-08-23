@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ img{
+    max-width: 100%;
+    border-radius: 2%;
+}
+.bathurst{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    width: 55%;
+    margin-bottom: 20px;
+    font-family: arial, sans-serif;;
+    font-weight: bold;
+  
+}
+
+.money{
+    padding-top: 15px;
+    text-align: center;
+}
+.mag{
+   width: 80%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.next{
+    border-top: 1px solid gray;
+     border-bottom: 1px solid #e09504;
+}
+
+.carLine{
+    width: 115px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid #e09504
+
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container-2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: rgb(109,140,140);
+    background: linear-gradient(0deg, rgba(109,140,140,1) 0%, rgba(235,242,244,1) 100%, rgba(0,212,255,1) 100%);
+    margin-bottom: 80px;
+}
+.container-3{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+
+}
+.gift{
+    margin-left: 60px !important;
+
+}
+
+.carTextTwo{
+    margin-bottom: 20px;
+}
+
+.subscribe{
+    background-color: rgb(79, 185, 127); 
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    margin-left: 42px !important;
+    margin-top: 195px !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.subscribe:hover{
+    background-color: #285229;
+    color: white;
+  
+}
+
+.subscribe2{
+    background-color: rgb(79, 185, 127); 
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+.subscribe2:hover{
+    background-color: #285229;
+    color: white;
+  
+}
+.car1{
+    width: 80%;
+    height: auto;
+}
+
+.box-3{
+    width: 25%;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.final{
+    padding: 40px;
+}
+
+.other{
+    text-align: center;
+    margin-bottom: 80px;
+}
+/* Media Queries */
+
+@media only screen and (max-width: 998px) {
+    .container-1{
+        flex-direction: column;
+    }
+
+    .carLine{
+        display: none;
+    }
+
+
+    .container-2{
+        flex-direction: column;
+      
+    }
+
+    .container-3{
+        flex-direction: column;
+    }
+
+    .car1{
+        width: 100%;
+    }
+
+    .car2{
+        width: 100%;
+    }
+
+    .box-2{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .box-3{
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gift{
+        margin-left: 20px !important;
+    }
+    
+    .subscribe{
+        margin: 20px !important;
+       
+    }
+
+    .subscribe2{
+        margin-bottom: 45px !important;
+    }
+  }
